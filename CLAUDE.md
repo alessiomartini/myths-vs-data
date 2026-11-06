@@ -4,7 +4,7 @@ Sito statico (HTML/CSS/JS, nessun build) che, per miti e affermazioni popolari d
 mostra le evidenze scientifiche con dati e grafici. Lingua del sito e della documentazione: italiano.
 
 ## Regole
-- Dati in `data/claims.json` (campi: id, claim, side, topic, type, verdict, evidence, summary, sources[{title,url}], chart).
+- Dati in `data/claims.json` (campi: id, claim, sides (lista di etichette: sinistra, destra, liberista, pro-mercato, critico del mercato, popolare), topic, type, verdict, evidence, summary, sources[{title,url}], chart).
 - **Mai inventare una fonte, un numero o un URL.** Ogni URL va aperto e controllato prima di inserirlo; nel dubbio, omettere.
 - `sources/raw-ai-dumps/` = solo elenco di affermazioni, non prove.
 - Tipi: empirico (verdetto) / normativo (nessun verdetto, elencare i fatti empirici) / definizione. Evidenza: consenso, misto, debole, nessun dato, non empirico.

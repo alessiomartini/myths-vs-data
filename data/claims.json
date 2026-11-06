@@ -2,7 +2,10 @@
   {
     "id": "cina-debito-usa",
     "claim": "La Cina possiede gran parte del debito USA",
-    "side": "popolare",
+    "sides": [
+      "popolare",
+      "destra"
+    ],
     "topic": "Debito pubblico",
     "type": "empirico",
     "verdict": "Falso: la Cina è un detentore importante ma non il principale, e pesa circa il 6% dei titoli di Stato in mano a stranieri.",
@@ -19,7 +22,10 @@
   {
     "id": "debito-aiuti-esteri",
     "claim": "Il debito si risolve tagliando gli aiuti esteri",
-    "side": "popolare",
+    "sides": [
+      "popolare",
+      "destra"
+    ],
     "topic": "Debito pubblico",
     "type": "empirico",
     "verdict": "Falso: gli aiuti esteri sono circa l'1% del bilancio federale USA, troppo poco per incidere sul debito.",
@@ -44,7 +50,9 @@
   {
     "id": "index-fund-rendimenti-medi",
     "claim": "Gli index fund danno solo rendimenti medi",
-    "side": "critico del mercato",
+    "sides": [
+      "popolare"
+    ],
     "topic": "Finanza personale",
     "type": "empirico",
     "verdict": "Fuorviante: replicano il mercato, ma nel lungo periodo la maggior parte dei fondi attivi fa peggio.",
@@ -61,7 +69,10 @@
   {
     "id": "globalizzazione-poverta",
     "claim": "La globalizzazione ha ridotto la povertà estrema",
-    "side": "pro-mercato",
+    "sides": [
+      "pro-mercato",
+      "liberista"
+    ],
     "topic": "Globalizzazione",
     "type": "empirico",
     "verdict": "In gran parte vero per il dato; attribuirne il merito alla globalizzazione è più incerto, e i costi sono concentrati.",
@@ -86,7 +97,11 @@
   {
     "id": "salario-minimo-posti-lavoro",
     "claim": "Il salario minimo distrugge posti di lavoro",
-    "side": "pro-mercato",
+    "sides": [
+      "pro-mercato",
+      "liberista",
+      "destra"
+    ],
     "topic": "Lavoro",
     "type": "empirico",
     "verdict": "Evidenza mista: gli studi recenti più citati trovano effetti piccoli, ma la letteratura non è unanime.",
@@ -115,7 +130,9 @@
   {
     "id": "affittare-buttare-soldi",
     "claim": "Affittare è buttare soldi",
-    "side": "popolare",
+    "sides": [
+      "popolare"
+    ],
     "topic": "Finanza personale",
     "type": "empirico",
     "verdict": "Dipende: anche la proprietà ha costi che non si recuperano (interessi, tasse, manutenzione), e il confronto cambia con prezzi, tassi e anni di permanenza.",
@@ -132,7 +149,9 @@
   {
     "id": "dividendi-rendimento-extra",
     "claim": "I dividendi sono un rendimento extra",
-    "side": "popolare",
+    "sides": [
+      "popolare"
+    ],
     "topic": "Finanza personale",
     "type": "empirico",
     "verdict": "Fuorviante: quando l'azienda stacca il dividendo il prezzo dell'azione cala, in teoria dello stesso importo; il dividendo sposta valore, non lo crea.",
@@ -153,7 +172,10 @@
   {
     "id": "controllo-affitti-accessibilita",
     "claim": "Il controllo degli affitti rende le case più accessibili",
-    "side": "critico del mercato",
+    "sides": [
+      "sinistra",
+      "critico del mercato"
+    ],
     "topic": "Abitazione",
     "type": "empirico",
     "verdict": "Per lo più falso nel lungo periodo: protegge gli inquilini attuali, ma riduce l'offerta di alloggi in affitto e può far salire gli affitti di mercato.",
@@ -174,7 +196,10 @@
   {
     "id": "dazi-proteggono-economia",
     "claim": "I dazi proteggono l'economia e i posti di lavoro",
-    "side": "popolare",
+    "sides": [
+      "destra",
+      "popolare"
+    ],
     "topic": "Globalizzazione",
     "type": "empirico",
     "verdict": "Per lo più falso per i dazi USA del 2018-19: il costo è ricaduto su consumatori e imprese americani e il saldo complessivo è stato negativo o quasi nullo.",
@@ -199,7 +224,10 @@
   {
     "id": "disuguaglianza-mondiale-aumento",
     "claim": "La disuguaglianza nel mondo è in aumento",
-    "side": "critico del mercato",
+    "sides": [
+      "sinistra",
+      "critico del mercato"
+    ],
     "topic": "Disuguaglianza",
     "type": "empirico",
     "verdict": "Dipende da cosa si misura: fra paesi è calata, dentro molti paesi è salita.",
@@ -220,7 +248,10 @@
   {
     "id": "immigrati-abbassano-salari",
     "claim": "Gli immigrati abbassano i salari dei nativi",
-    "side": "popolare",
+    "sides": [
+      "destra",
+      "popolare"
+    ],
     "topic": "Lavoro",
     "type": "empirico",
     "verdict": "Per lo più falso nel complesso: l'effetto medio sui salari dei nativi è molto piccolo; qualche perdita possibile per gruppi specifici.",
@@ -237,7 +268,9 @@
   {
     "id": "divario-salariale-genere-discriminazione",
     "claim": "Il divario salariale di genere è discriminazione per lo stesso lavoro",
-    "side": "critico del mercato",
+    "sides": [
+      "sinistra"
+    ],
     "topic": "Lavoro",
     "type": "empirico",
     "verdict": "Fuorviante: il divario grezzo esiste, ma in gran parte non deriva da paghe diverse per lo stesso lavoro; una discriminazione residua non è esclusa.",
@@ -262,7 +295,11 @@
   {
     "id": "debito-90-crescita",
     "claim": "Sopra il 90% di debito/PIL la crescita crolla",
-    "side": "pro-mercato",
+    "sides": [
+      "liberista",
+      "pro-mercato",
+      "destra"
+    ],
     "topic": "Debito pubblico",
     "type": "empirico",
     "verdict": "Falso come regola netta: la soglia del 90% non regge alla verifica dei dati.",
@@ -287,7 +324,10 @@
   {
     "id": "carbon-pricing-non-riduce-emissioni",
     "claim": "Il carbon pricing non riduce le emissioni",
-    "side": "popolare",
+    "sides": [
+      "destra",
+      "popolare"
+    ],
     "topic": "Clima",
     "type": "empirico",
     "verdict": "Falso in media: le valutazioni ex post trovano riduzioni, spesso modeste e con prezzi bassi.",
@@ -308,7 +348,10 @@
   {
     "id": "proprieta-furto",
     "claim": "La proprietà è un furto",
-    "side": "critico del mercato",
+    "sides": [
+      "sinistra",
+      "critico del mercato"
+    ],
     "topic": "Proprietà",
     "type": "normativo",
     "verdict": "Nessun verdetto: è un giudizio di valore (formula di Proudhon, 1840), non verificabile con i dati.",

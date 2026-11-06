@@ -23,13 +23,13 @@
 ## Decisioni e cose provate
 - **Tipi di affermazione**: `empirico` (riceve un verdetto), `normativo` (nessun verdetto: "questione di valori", si elencano i fatti empirici sottostanti), `definizione` (equivoco sul significato dei termini).
 - **Scala di evidenza** (ispirata a GRADE): `consenso` (meta-analisi / consenso degli esperti), `misto`, `debole`, `nessun dato`, `non empirico`.
-- **Bilanciamento**: affermazioni scelte da entrambi gli schieramenti; il campo `side` dice da chi viene l'affermazione.
+- **Bilanciamento**: affermazioni scelte da entrambi gli schieramenti; il campo `sides` (lista, anche piu' etichette) dice da chi viene l'affermazione: sinistra, destra, liberista, pro-mercato, critico del mercato, popolare. Le etichette sono una semplificazione; una tesi puo' venire da piu' parti (es. protezionismo).
 - **Grafici**: iframe del grapher di Our World in Data (CC-BY) quando c'è; consenso degli esperti dai sondaggi Clark Center; dati primari (SPIVA, US Treasury TIC, WID).
 - **Dump AI scartati come fonti**: i file in `sources/raw-ai-dumps/` hanno citazioni senza URL e alcune "realtà" di parte; usati solo come lista di affermazioni.
 - **Widget Feedback**: copia identica di `site-notes/widget/notes-widget.js` (non modificarla qui).
 - Limite: SPIVA e CBO bloccano il fetch automatico (403); per SPIVA le cifre precise non sono state ricontrollate sul PDF, quindi la scheda cita solo la conclusione qualitativa.
 
 ## Log
-- 2026-11-06: aggiunte 10 affermazioni (affitto, dividendi, rent control, dazi, disuguaglianza, immigrazione, divario di genere, debito 90%, carbon pricing, proprieta' come furto): 15 totali. Fonti non lette per intero: Nature (redirect), JSTOR/Nobel (403), Beracha-Johnson e Miller-Modigliani solo pagina bibliografica; nessun grafico OWID adatto trovato.
+- 2026-11-06: etichette di schieramento multiple (campo `sides`, aggiunte sinistra/destra/liberista); aggiunte 10 affermazioni (affitto, dividendi, rent control, dazi, disuguaglianza, immigrazione, divario di genere, debito 90%, carbon pricing, proprieta' come furto): 15 totali. Fonti non lette per intero: Nature (redirect), JSTOR/Nobel (403), Beracha-Johnson e Miller-Modigliani solo pagina bibliografica; nessun grafico OWID adatto trovato.
 - 2026-11-06: repo pubblico, sito online su GitHub Pages: https://alessiomartini.github.io/myths-vs-data/
 - 2026-11-06: progetto avviato: struttura, sito statico, 5 affermazioni verificate, feedback collegato a site-notes
