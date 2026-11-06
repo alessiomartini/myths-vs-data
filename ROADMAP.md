@@ -29,4 +29,5 @@
 - Limite: SPIVA e CBO bloccano il fetch automatico (403); per SPIVA le cifre precise non sono state ricontrollate sul PDF, quindi la scheda cita solo la conclusione qualitativa.
 
 ## Log
+- 2026-11-06: repo pubblico, sito online su GitHub Pages: https://alessiomartini.github.io/myths-vs-data/
 - 2026-11-06: progetto avviato: struttura, sito statico, 5 affermazioni verificate, feedback collegato a site-notes

@@ -3,6 +3,8 @@ questo e' un nuovo progetto che vorrei trasformare in sito web.
 vorrei prendere tutti i miti, credenze, etc. che ci sono, per esempio riguardo a economia, politica, finanza, fisica, matematica, etc. che sia da entrambi i lati del dibattito, per esempio pro e contro la globalizzazione o pro e contro capitalismo o pro e contro anarchismo etc. e cercare di capire se esiste una risposta backed up dalla scienza a riguardo, possibillmente con dati, grafici, etc.
 
 
+**Sito:** https://alessiomartini.github.io/myths-vs-data/
+
 ## Cos'e' / come si usa
 
 Sito statico (HTML/CSS/JS, nessun build). Ogni scheda e' un'affermazione popolare, con tipo, verdetto,
