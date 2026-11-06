@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miti e dati</title>
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+<header>
+  <h1>Miti e dati</h1>
+  <p>Affermazioni popolari da entrambi i lati del dibattito, confrontate con le evidenze e i dati.</p>
+  <div class="filters">
+    <label>Tema <select id="f-topic"></select></label>
+    <label>Schieramento <select id="f-side"></select></label>
+    <label>Evidenza <select id="f-evidence"></select></label>
+  </div>
+</header>
+<main id="list" aria-live="polite"></main>
+<footer><p>Evidenza: <b>consenso</b> (meta-analisi o consenso degli esperti), <b>misto</b>, <b>debole</b>, <b>nessun dato</b>, <b>non empirico</b>. Le affermazioni normative non hanno un verdetto: sono questioni di valori.</p></footer>
+<script src="js/app.js?v=1"></script>
+<script src="js/notes-widget.js?v=2" data-site="myths-vs-data"></script>
+</body>
+</html>

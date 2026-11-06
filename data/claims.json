@@ -1,0 +1,79 @@
+[
+  {
+    "id": "cina-debito-usa",
+    "claim": "La Cina possiede gran parte del debito USA",
+    "side": "popolare",
+    "topic": "Debito pubblico",
+    "type": "empirico",
+    "verdict": "Falso: la Cina è un detentore importante ma non il principale, e pesa circa il 6% dei titoli di Stato in mano a stranieri.",
+    "evidence": "consenso",
+    "summary": "Secondo la tabella ufficiale del Tesoro USA (dati TIC, agosto 2026) gli stranieri detengono 9.331,7 miliardi di dollari di titoli del Tesoro. Il Giappone ne ha 1.068,3 miliardi, il Regno Unito 1.009,5 e la Cina continentale 590,7, cioè circa il 6,3% del totale estero (calcolo su questi numeri). Gli stranieri, inoltre, sono solo una parte dei detentori del debito. Il dato non dice nulla su quanto sia un problema avere creditori esteri: è un'altra domanda.",
+    "sources": [
+      {"title": "US Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities", "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html"}
+    ],
+    "chart": ""
+  },
+  {
+    "id": "debito-aiuti-esteri",
+    "claim": "Il debito si risolve tagliando gli aiuti esteri",
+    "side": "popolare",
+    "topic": "Debito pubblico",
+    "type": "empirico",
+    "verdict": "Falso: gli aiuti esteri sono circa l'1% del bilancio federale USA, troppo poco per incidere sul debito.",
+    "evidence": "consenso",
+    "summary": "Il Congressional Research Service stima gli aiuti esteri USA in circa l'1% del bilancio federale (48,18 miliardi di dollari nell'anno fiscale 2019) e in circa il 3,9% della spesa discrezionale (anno fiscale 2022). Un sondaggio KFF del 2025 mostra che gli americani stimano in media il 26% e solo l'11% indica l'1% o meno. Tagliare tutti gli aiuti non chiuderebbe il deficit; se sia giusto darli o no è invece una questione di valori (affermazione normativa a parte).",
+    "sources": [
+      {"title": "CRS, Foreign Assistance: An Introduction to U.S. Programs and Policy (R40213)", "url": "https://www.everycrsreport.com/reports/R40213.html"},
+      {"title": "CRS Insight IF10183 (novembre 2024)", "url": "https://www.everycrsreport.com/files/2024-11-01_IF10183_a94ece50e7d0f5015b2087aabd23ec7335dfec37.html"},
+      {"title": "KFF, sondaggio su USAID e aiuti esteri (marzo 2025)", "url": "https://www.kff.org/global-health-policy/poll-two-thirds-believe-dissolving-usaid-will-lead-to-more-illness-and-death-globally-while-nearly-half-say-it-would-significantly-reduce-the-budget-deficit-and-fund-domestic-programs/"}
+    ],
+    "chart": ""
+  },
+  {
+    "id": "index-fund-rendimenti-medi",
+    "claim": "Gli index fund danno solo rendimenti medi",
+    "side": "critico del mercato",
+    "topic": "Finanza personale",
+    "type": "empirico",
+    "verdict": "Fuorviante: replicano il mercato, ma nel lungo periodo la maggior parte dei fondi attivi fa peggio.",
+    "evidence": "consenso",
+    "summary": "Il rapporto SPIVA di S&P Dow Jones Indices confronta ogni anno i fondi attivi con i loro indici. Nell'edizione a fine 2024, su 15 anni nessuna categoria ha visto la maggioranza dei gestori attivi battere il proprio benchmark. Un indice è dunque 'medio' prima dei costi, ma dopo i costi batte la maggioranza dei gestori attivi. Limiti: SPIVA copre fondi USA, alcuni anni e categorie vedono i gestori attivi andare meglio, e i gestori vincenti non sono identificabili in anticipo (la persistenza è debole). Le cifre esatte per categoria non sono state ricontrollate sul PDF: consultare il rapporto.",
+    "sources": [
+      {"title": "S&P Dow Jones Indices, SPIVA U.S. Year-End 2024", "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2024"}
+    ],
+    "chart": ""
+  },
+  {
+    "id": "globalizzazione-poverta",
+    "claim": "La globalizzazione ha ridotto la povertà estrema",
+    "side": "pro-mercato",
+    "topic": "Globalizzazione",
+    "type": "empirico",
+    "verdict": "In gran parte vero per il dato; attribuirne il merito alla globalizzazione è più incerto, e i costi sono concentrati.",
+    "evidence": "misto",
+    "summary": "Con la soglia di 3 dollari al giorno (Banca Mondiale/OWID) la quota di popolazione mondiale in povertà estrema passa dal 43,4% nel 1990 a circa il 10% nel 2025 (stima). In Cina passa dall'83,1% nel 1990 allo 0% nel 2019: gran parte del calo mondiale dipende dalla Cina, la cui crescita deriva anche da riforme interne e non solo dal commercio. Dall'altra parte, Autor, Dorn e Hanson (AER 2013) stimano che la concorrenza delle importazioni cinesi spieghi circa un quarto del calo dell'occupazione manifatturiera USA (1990-2007), con effetti locali su salari e occupazione. Dire che la povertà estrema è calata è un dato; dire che l'ha causato la globalizzazione è una stima causale, discussa.",
+    "sources": [
+      {"title": "Our World in Data, Share of population living in extreme poverty (dati World Bank PIP)", "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"},
+      {"title": "World Bank, Poverty and Inequality Platform", "url": "https://pip.worldbank.org/"},
+      {"title": "Autor, Dorn, Hanson (2013), The China Syndrome, American Economic Review 103(6)", "url": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2121-68"}
+    ],
+    "chart": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"
+  },
+  {
+    "id": "salario-minimo-posti-lavoro",
+    "claim": "Il salario minimo distrugge posti di lavoro",
+    "side": "pro-mercato",
+    "topic": "Lavoro",
+    "type": "empirico",
+    "verdict": "Evidenza mista: gli studi recenti più citati trovano effetti piccoli, ma la letteratura non è unanime.",
+    "evidence": "misto",
+    "summary": "Cengiz, Dube, Lindner e Zipperer (QJE 2019), su 138 aumenti statali USA dal 1979 al 2016, trovano che il numero totale di posti a bassa paga resta sostanzialmente invariato nei cinque anni successivi. La rassegna internazionale di Dube per il Tesoro britannico (2019) conclude che l'effetto sull'occupazione è molto contenuto fino a circa il 59% del salario mediano, mentre i redditi dei lavoratori a bassa paga salgono; sui livelli molto alti l'evidenza è meno sviluppata. Neumark e Shirley (Industrial Relations 2022) rileggono invece la letteratura recente e parlano di una netta prevalenza di stime negative, soprattutto per giovani e poco istruiti. Il risultato dipende dal livello del minimo rispetto al salario mediano e dal metodo.",
+    "sources": [
+      {"title": "Cengiz, Dube, Lindner, Zipperer (2019), The Effect of Minimum Wages on Low-Wage Jobs, QJE 134(3)", "url": "https://econpapers.repec.org/RePEc:oup:qjecon:v:134:y:2019:i:3:p:1405-1454."},
+      {"title": "Dube (2019), Impacts of minimum wages: review of the international evidence, HM Treasury (PDF)", "url": "https://assets.publishing.service.gov.uk/media/5dc0312940f0b637a03ffa96/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf"},
+      {"title": "Neumark e Shirley (2022), Myth or Measurement, Industrial Relations 61(4)", "url": "https://econpapers.repec.org/RePEc:bla:indres:v:61:y:2022:i:4:p:384-417"},
+      {"title": "NBER Working Paper 28388 (versione preliminare di Neumark e Shirley)", "url": "https://nber.org/papers/w28388"}
+    ],
+    "chart": ""
+  }
+]
