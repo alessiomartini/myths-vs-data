@@ -1,12 +1,12 @@
 (function () {
   var list = document.getElementById('list'), claims = [];
-  var F = {topic: 'f-topic', side: 'f-side', evidence: 'f-evidence'};
-  var LAB = {topic: 'Tutti i temi', side: 'Tutti', evidence: 'Tutte'};
+  var F = {topic: 'f-topic', sides: 'f-side', evidence: 'f-evidence'};
+  var LAB = {topic: 'Tutti i temi', sides: 'Tutti', evidence: 'Tutte'};
   function el(t, c, x) { var e = document.createElement(t); if (c) e.className = c; if (x) e.textContent = x; return e; }
   function fill() {
     Object.keys(F).forEach(function (k) {
       var s = document.getElementById(F[k]), vals = [];
-      claims.forEach(function (c) { if (vals.indexOf(c[k]) < 0) vals.push(c[k]); });
+      claims.forEach(function (c) { [].concat(c[k]).forEach(function (x) { if (vals.indexOf(x) < 0) vals.push(x); }); });
       s.appendChild(new Option(LAB[k], ''));
       vals.sort().forEach(function (v) { s.appendChild(new Option(v, v)); });
       s.onchange = render;
@@ -16,7 +16,7 @@
     var d = el('article', 'card'), b = el('button'), body = el('div', 'body'), tags = el('div', 'tags');
     b.setAttribute('aria-expanded', 'false');
     b.appendChild(el('h2', '', c.claim));
-    [c.topic, c.side, c.type].forEach(function (t) { tags.appendChild(el('span', 'tag', t)); });
+    [c.topic].concat(c.sides, c.type).forEach(function (t) { tags.appendChild(el('span', 'tag', t)); });
     tags.appendChild(el('span', 'tag ev ' + c.evidence.replace(/ /g, '-'), 'evidenza: ' + c.evidence));
     b.appendChild(tags);
     if (c.verdict) b.appendChild(el('p', 'verdict', c.verdict));
@@ -44,7 +44,7 @@
     list.textContent = '';
     var n = 0;
     claims.forEach(function (c) {
-      for (var k in F) { var v = document.getElementById(F[k]).value; if (v && c[k] !== v) return; }
+      for (var k in F) { var v = document.getElementById(F[k]).value; if (v && [].concat(c[k]).indexOf(v) < 0) return; }
       list.appendChild(card(c)); n++;
     });
     if (!n) list.appendChild(el('p', '', 'Nessuna affermazione con questi filtri.'));
