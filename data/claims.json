@@ -9,7 +9,10 @@
     "evidence": "consenso",
     "summary": "Secondo la tabella ufficiale del Tesoro USA (dati TIC, agosto 2026) gli stranieri detengono 9.331,7 miliardi di dollari di titoli del Tesoro. Il Giappone ne ha 1.068,3 miliardi, il Regno Unito 1.009,5 e la Cina continentale 590,7, cioè circa il 6,3% del totale estero (calcolo su questi numeri). Gli stranieri, inoltre, sono solo una parte dei detentori del debito. Il dato non dice nulla su quanto sia un problema avere creditori esteri: è un'altra domanda.",
     "sources": [
-      {"title": "US Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities", "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html"}
+      {
+        "title": "US Treasury, TIC Table 5: Major Foreign Holders of Treasury Securities",
+        "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html"
+      }
     ],
     "chart": ""
   },
@@ -23,9 +26,18 @@
     "evidence": "consenso",
     "summary": "Il Congressional Research Service stima gli aiuti esteri USA in circa l'1% del bilancio federale (48,18 miliardi di dollari nell'anno fiscale 2019) e in circa il 3,9% della spesa discrezionale (anno fiscale 2022). Un sondaggio KFF del 2025 mostra che gli americani stimano in media il 26% e solo l'11% indica l'1% o meno. Tagliare tutti gli aiuti non chiuderebbe il deficit; se sia giusto darli o no è invece una questione di valori (affermazione normativa a parte).",
     "sources": [
-      {"title": "CRS, Foreign Assistance: An Introduction to U.S. Programs and Policy (R40213)", "url": "https://www.everycrsreport.com/reports/R40213.html"},
-      {"title": "CRS Insight IF10183 (novembre 2024)", "url": "https://www.everycrsreport.com/files/2024-11-01_IF10183_a94ece50e7d0f5015b2087aabd23ec7335dfec37.html"},
-      {"title": "KFF, sondaggio su USAID e aiuti esteri (marzo 2025)", "url": "https://www.kff.org/global-health-policy/poll-two-thirds-believe-dissolving-usaid-will-lead-to-more-illness-and-death-globally-while-nearly-half-say-it-would-significantly-reduce-the-budget-deficit-and-fund-domestic-programs/"}
+      {
+        "title": "CRS, Foreign Assistance: An Introduction to U.S. Programs and Policy (R40213)",
+        "url": "https://www.everycrsreport.com/reports/R40213.html"
+      },
+      {
+        "title": "CRS Insight IF10183 (novembre 2024)",
+        "url": "https://www.everycrsreport.com/files/2024-11-01_IF10183_a94ece50e7d0f5015b2087aabd23ec7335dfec37.html"
+      },
+      {
+        "title": "KFF, sondaggio su USAID e aiuti esteri (marzo 2025)",
+        "url": "https://www.kff.org/global-health-policy/poll-two-thirds-believe-dissolving-usaid-will-lead-to-more-illness-and-death-globally-while-nearly-half-say-it-would-significantly-reduce-the-budget-deficit-and-fund-domestic-programs/"
+      }
     ],
     "chart": ""
   },
@@ -39,7 +51,10 @@
     "evidence": "consenso",
     "summary": "Il rapporto SPIVA di S&P Dow Jones Indices confronta ogni anno i fondi attivi con i loro indici. Nell'edizione a fine 2024, su 15 anni nessuna categoria ha visto la maggioranza dei gestori attivi battere il proprio benchmark. Un indice è dunque 'medio' prima dei costi, ma dopo i costi batte la maggioranza dei gestori attivi. Limiti: SPIVA copre fondi USA, alcuni anni e categorie vedono i gestori attivi andare meglio, e i gestori vincenti non sono identificabili in anticipo (la persistenza è debole). Le cifre esatte per categoria non sono state ricontrollate sul PDF: consultare il rapporto.",
     "sources": [
-      {"title": "S&P Dow Jones Indices, SPIVA U.S. Year-End 2024", "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2024"}
+      {
+        "title": "S&P Dow Jones Indices, SPIVA U.S. Year-End 2024",
+        "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2024"
+      }
     ],
     "chart": ""
   },
@@ -53,9 +68,18 @@
     "evidence": "misto",
     "summary": "Con la soglia di 3 dollari al giorno (Banca Mondiale/OWID) la quota di popolazione mondiale in povertà estrema passa dal 43,4% nel 1990 a circa il 10% nel 2025 (stima). In Cina passa dall'83,1% nel 1990 allo 0% nel 2019: gran parte del calo mondiale dipende dalla Cina, la cui crescita deriva anche da riforme interne e non solo dal commercio. Dall'altra parte, Autor, Dorn e Hanson (AER 2013) stimano che la concorrenza delle importazioni cinesi spieghi circa un quarto del calo dell'occupazione manifatturiera USA (1990-2007), con effetti locali su salari e occupazione. Dire che la povertà estrema è calata è un dato; dire che l'ha causato la globalizzazione è una stima causale, discussa.",
     "sources": [
-      {"title": "Our World in Data, Share of population living in extreme poverty (dati World Bank PIP)", "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"},
-      {"title": "World Bank, Poverty and Inequality Platform", "url": "https://pip.worldbank.org/"},
-      {"title": "Autor, Dorn, Hanson (2013), The China Syndrome, American Economic Review 103(6)", "url": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2121-68"}
+      {
+        "title": "Our World in Data, Share of population living in extreme poverty (dati World Bank PIP)",
+        "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"
+      },
+      {
+        "title": "World Bank, Poverty and Inequality Platform",
+        "url": "https://pip.worldbank.org/"
+      },
+      {
+        "title": "Autor, Dorn, Hanson (2013), The China Syndrome, American Economic Review 103(6)",
+        "url": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2121-68"
+      }
     ],
     "chart": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"
   },
@@ -69,11 +93,228 @@
     "evidence": "misto",
     "summary": "Cengiz, Dube, Lindner e Zipperer (QJE 2019), su 138 aumenti statali USA dal 1979 al 2016, trovano che il numero totale di posti a bassa paga resta sostanzialmente invariato nei cinque anni successivi. La rassegna internazionale di Dube per il Tesoro britannico (2019) conclude che l'effetto sull'occupazione è molto contenuto fino a circa il 59% del salario mediano, mentre i redditi dei lavoratori a bassa paga salgono; sui livelli molto alti l'evidenza è meno sviluppata. Neumark e Shirley (Industrial Relations 2022) rileggono invece la letteratura recente e parlano di una netta prevalenza di stime negative, soprattutto per giovani e poco istruiti. Il risultato dipende dal livello del minimo rispetto al salario mediano e dal metodo.",
     "sources": [
-      {"title": "Cengiz, Dube, Lindner, Zipperer (2019), The Effect of Minimum Wages on Low-Wage Jobs, QJE 134(3)", "url": "https://econpapers.repec.org/RePEc:oup:qjecon:v:134:y:2019:i:3:p:1405-1454."},
-      {"title": "Dube (2019), Impacts of minimum wages: review of the international evidence, HM Treasury (PDF)", "url": "https://assets.publishing.service.gov.uk/media/5dc0312940f0b637a03ffa96/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf"},
-      {"title": "Neumark e Shirley (2022), Myth or Measurement, Industrial Relations 61(4)", "url": "https://econpapers.repec.org/RePEc:bla:indres:v:61:y:2022:i:4:p:384-417"},
-      {"title": "NBER Working Paper 28388 (versione preliminare di Neumark e Shirley)", "url": "https://nber.org/papers/w28388"}
+      {
+        "title": "Cengiz, Dube, Lindner, Zipperer (2019), The Effect of Minimum Wages on Low-Wage Jobs, QJE 134(3)",
+        "url": "https://econpapers.repec.org/RePEc:oup:qjecon:v:134:y:2019:i:3:p:1405-1454."
+      },
+      {
+        "title": "Dube (2019), Impacts of minimum wages: review of the international evidence, HM Treasury (PDF)",
+        "url": "https://assets.publishing.service.gov.uk/media/5dc0312940f0b637a03ffa96/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf"
+      },
+      {
+        "title": "Neumark e Shirley (2022), Myth or Measurement, Industrial Relations 61(4)",
+        "url": "https://econpapers.repec.org/RePEc:bla:indres:v:61:y:2022:i:4:p:384-417"
+      },
+      {
+        "title": "NBER Working Paper 28388 (versione preliminare di Neumark e Shirley)",
+        "url": "https://nber.org/papers/w28388"
+      }
     ],
+    "chart": ""
+  },
+  {
+    "id": "affittare-buttare-soldi",
+    "claim": "Affittare è buttare soldi",
+    "side": "popolare",
+    "topic": "Finanza personale",
+    "type": "empirico",
+    "verdict": "Dipende: anche la proprietà ha costi che non si recuperano (interessi, tasse, manutenzione), e il confronto cambia con prezzi, tassi e anni di permanenza.",
+    "evidence": "misto",
+    "summary": "Chi paga l'affitto non accumula patrimonio immobiliare, ma chi compra paga interessi del mutuo, imposte sull'immobile, manutenzione e costi di transazione, che non tornano indietro, e rinuncia al rendimento che avrebbe avuto investendo altrove l'anticipo. Beracha e Johnson (Real Estate Economics 2012) confrontano comprare e affittare su oltre 30 anni di dati USA: per la maggior parte del periodo studiato, affittare e investire la differenza avrebbe lasciato più ricchezza che comprare; l'acquisto resta però conveniente se la differenza non viene davvero investita (la casa funziona anche da risparmio forzato). Il risultato dipende dall'andamento dei prezzi delle case, dai tassi del mutuo, dalla durata di permanenza e dalle regole fiscali: lo studio è americano e non si trasferisce automaticamente all'Italia. L'abstract sul sito dell'editore non è accessibile: la sintesi si basa sulla pagina bibliografica e su un comunicato dell'università (FIU), non sul testo dell'articolo.",
+    "sources": [
+      {
+        "title": "Beracha e Johnson (2012), Lessons from Over 30 Years of Buy versus Rent Decisions, Real Estate Economics 40(2)",
+        "url": "https://econpapers.repec.org/RePEc:bla:reesec:v:40:y:2012:i:2:p:217-247"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "dividendi-rendimento-extra",
+    "claim": "I dividendi sono un rendimento extra",
+    "side": "popolare",
+    "topic": "Finanza personale",
+    "type": "empirico",
+    "verdict": "Fuorviante: quando l'azienda stacca il dividendo il prezzo dell'azione cala, in teoria dello stesso importo; il dividendo sposta valore, non lo crea.",
+    "evidence": "consenso",
+    "summary": "Nel modello di Miller e Modigliani (Journal of Business 1961), in mercati perfetti (senza tasse né costi di transazione) la politica dei dividendi non cambia il valore dell'impresa: pagare un dividendo equivale a vendere una parte dell'azione, e l'investitore può ottenere lo stesso flusso vendendo azioni ('dividendo fai da te'). Elton e Gruber (Review of Economics and Statistics 1970) studiano il prezzo al giorno dello stacco: il calo è tipicamente inferiore al dividendo, e lo spiegano con il diverso trattamento fiscale di dividendi e plusvalenze. Quindi il dividendo non è un guadagno 'in più' rispetto al rendimento totale (dividendi più variazione di prezzo); può però convenire o no a seconda delle tasse e delle preferenze di chi investe (ad esempio chi vuole un reddito regolare senza vendere). Le pagine delle fonti riportano solo titolo e autori: le conclusioni sono quelle note della letteratura, non lette qui sul testo.",
+    "sources": [
+      {
+        "title": "Miller e Modigliani (1961), Dividend Policy, Growth, and the Valuation of Shares, Journal of Business 34(4)",
+        "url": "https://econpapers.repec.org/RePEc:ucp:jnlbus:v:34:y:1961:p:411"
+      },
+      {
+        "title": "Elton e Gruber (1970), Marginal Stockholder Tax Rates and the Clientele Effect, Review of Economics and Statistics 52(1)",
+        "url": "https://econpapers.repec.org/RePEc:tpr:restat:v:52:y:1970:i:1:p:68-74"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "controllo-affitti-accessibilita",
+    "claim": "Il controllo degli affitti rende le case più accessibili",
+    "side": "critico del mercato",
+    "topic": "Abitazione",
+    "type": "empirico",
+    "verdict": "Per lo più falso nel lungo periodo: protegge gli inquilini attuali, ma riduce l'offerta di alloggi in affitto e può far salire gli affitti di mercato.",
+    "evidence": "consenso",
+    "summary": "Diamond, McQuade e Qian (American Economic Review 2019) studiano una riforma del 1994 a San Francisco che estese il controllo degli affitti: la mobilità degli inquilini protetti calò di circa il 20% e gli sfratti diminuirono, ma i proprietari colpiti ridussero l'offerta in affitto di circa il 15% (vendendo a chi abita in proprio o ristrutturando); secondo gli autori ciò probabilmente alza gli affitti di mercato nel lungo periodo. Nel sondaggio del Clark Center (febbraio 2012, esperti USA), su 37 rispondenti l'89,2% (33) è in disaccordo o fortemente in disaccordo con l'idea che i controlli abbiano avuto un effetto positivo sulla quantità e qualità degli alloggi accessibili. Limiti: un solo caso (San Francisco), sondaggio del 2012, e i benefici per chi resta nella casa (stabilità, meno sfratti) sono reali: quanto pesino rispetto ai costi per chi cerca casa è anche una scelta di valori.",
+    "sources": [
+      {
+        "title": "Diamond, McQuade, Qian (2019), The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality, AER 109(9)",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181289"
+      },
+      {
+        "title": "Clark Center, Rent Control (sondaggio del 7 febbraio 2012)",
+        "url": "https://www.kentclarkcenter.org/surveys/rent-control/"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "dazi-proteggono-economia",
+    "claim": "I dazi proteggono l'economia e i posti di lavoro",
+    "side": "popolare",
+    "topic": "Globalizzazione",
+    "type": "empirico",
+    "verdict": "Per lo più falso per i dazi USA del 2018-19: il costo è ricaduto su consumatori e imprese americani e il saldo complessivo è stato negativo o quasi nullo.",
+    "evidence": "consenso",
+    "summary": "Amiti, Redding e Weinstein (Journal of Economic Perspectives 2019) trovano che i dazi del 2018 sono stati trasferiti per intero ai prezzi interni: l'incidenza è ricaduta su consumatori e importatori americani, con una perdita di reddito reale aggregato di circa 1,4 miliardi di dollari al mese a fine 2018. Fajgelbaum, Goldberg, Kennedy e Khandelwal (QJE 2020; qui la versione NBER) stimano perdite per gli acquirenti di importazioni pari a 51 miliardi di dollari (0,27% del PIL) e, dopo entrate tariffarie e guadagni dei produttori interni, una perdita netta di 7,2 miliardi (0,04% del PIL): netto piccolo, ma con vincitori (settori protetti) e perdenti (chi importa, chi esporta e subisce ritorsioni). Nel sondaggio del Clark Center del 30 aprile 2024 sul triplicare i dazi sull'acciaio e l'alluminio cinesi (percentuali calcolate sui voti pubblicati, 41 risposte per domanda), il 41,5% si aspetta più occupazione nell'acciaio USA, ma il 75,6% (31 su 41) è in disaccordo o fortemente in disaccordo sul fatto che i guadagni superino le perdite. Limiti: gli studi riguardano i dazi 2018-19 e misurano soprattutto prezzi e reddito nel breve periodo; argomenti non economici (sicurezza nazionale, settori strategici) restano questioni di valori.",
+    "sources": [
+      {
+        "title": "Amiti, Redding, Weinstein (2019), The Impact of the 2018 Tariffs on Prices and Welfare, JEP 33(4)",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jep.33.4.187"
+      },
+      {
+        "title": "Fajgelbaum, Goldberg, Kennedy, Khandelwal (2019), The Return to Protectionism, NBER Working Paper 25638 (poi QJE 2020)",
+        "url": "https://www.nber.org/papers/w25638"
+      },
+      {
+        "title": "Clark Center, Tariffs (sondaggio del 30 aprile 2024)",
+        "url": "https://www.kentclarkcenter.org/surveys/tariffs/"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "disuguaglianza-mondiale-aumento",
+    "claim": "La disuguaglianza nel mondo è in aumento",
+    "side": "critico del mercato",
+    "topic": "Disuguaglianza",
+    "type": "empirico",
+    "verdict": "Dipende da cosa si misura: fra paesi è calata, dentro molti paesi è salita.",
+    "evidence": "misto",
+    "summary": "Il World Inequality Report 2022 (World Inequality Lab) riporta che il 10% più ricco della popolazione mondiale riceve circa il 52% del reddito globale e la metà più povera circa l'8,5%. Il rapporto fra il reddito medio del 10% dei paesi più ricchi e quello del 50% dei paesi più poveri è sceso in vent'anni da circa 50 a poco meno di 40; all'interno dei paesi, il rapporto fra il top 10% e il 50% più povero degli individui è quasi raddoppiato (da 8,5 a 15). La disuguaglianza globale fra individui dipende quindi da due forze opposte: il recupero di paesi grandi come la Cina (che riduce il divario fra paesi) e l'aumento delle disuguaglianze interne in molti paesi. Le stime dell'indice di Gini globale (ad esempio di Milanovic) dipendono da dati e metodi diversi e non ho potuto verificarle direttamente: la scheda non cita cifre su quel punto. I dati sono nel World Inequality Database.",
+    "sources": [
+      {
+        "title": "World Inequality Lab, World Inequality Report 2022, Executive Summary",
+        "url": "https://wir2022.wid.world/executive-summary/"
+      },
+      {
+        "title": "World Inequality Database (WID.world)",
+        "url": "https://wid.world/"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "immigrati-abbassano-salari",
+    "claim": "Gli immigrati abbassano i salari dei nativi",
+    "side": "popolare",
+    "topic": "Lavoro",
+    "type": "empirico",
+    "verdict": "Per lo più falso nel complesso: l'effetto medio sui salari dei nativi è molto piccolo; qualche perdita possibile per gruppi specifici.",
+    "evidence": "consenso",
+    "summary": "Il rapporto della National Academies of Sciences, Engineering, and Medicine (2017), The Economic and Fiscal Consequences of Immigration, conclude che l'impatto di lungo periodo dell'immigrazione sui salari e sull'occupazione dei nativi nel complesso è molto piccolo. Gli eventuali effetti negativi riguardano soprattutto i precedenti immigrati e i nativi senza diploma di scuola superiore. Il risultato riguarda gli USA; altri paesi, afflussi improvvisi e mercati locali possono dare risultati diversi, e il rapporto tratta anche gli effetti fiscali (tema a parte). Qui riporto solo le conclusioni sui salari come lette sulla pagina ufficiale.",
+    "sources": [
+      {
+        "title": "National Academies of Sciences, Engineering, and Medicine (2017), The Economic and Fiscal Consequences of Immigration",
+        "url": "https://www.nationalacademies.org/publications/23550"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "divario-salariale-genere-discriminazione",
+    "claim": "Il divario salariale di genere è discriminazione per lo stesso lavoro",
+    "side": "critico del mercato",
+    "topic": "Lavoro",
+    "type": "empirico",
+    "verdict": "Fuorviante: il divario grezzo esiste, ma in gran parte non deriva da paghe diverse per lo stesso lavoro; una discriminazione residua non è esclusa.",
+    "evidence": "misto",
+    "summary": "Va distinto il divario grezzo (differenza media fra uomini e donne) da quello aggiustato per occupazione, ore e altre caratteristiche. Blau e Kahn (Journal of Economic Literature 2017), sui dati PSID 1980-2010, trovano che il divario si è ridotto molto, che a fine periodo le variabili di capitale umano ne spiegano poco mentre le differenze di occupazione e settore restano importanti, e concludono che la discriminazione non si può escludere. Kleven, Landais e Søgaard (AEJ: Applied 2019), su dati amministrativi danesi, mostrano che la nascita di un figlio apre un divario di reddito di lungo periodo di circa il 20% fra madri e padri (ore, partecipazione, salari): una parte consistente del divario nasce da scelte e vincoli legati alla famiglia. Il Nobel 2023 è andato a Claudia Goldin 'per aver fatto avanzare la comprensione degli esiti delle donne nel mercato del lavoro' (traduzione dalla motivazione). Quindi 'stesso lavoro, paga diversa' non è la spiegazione principale; se le scelte siano libere o vincolate da norme e costi di cura è anche una questione di valori.",
+    "sources": [
+      {
+        "title": "Blau e Kahn (2017), The Gender Wage Gap: Extent, Trends, and Explanations, JEL 55(3)",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/jel.20160995"
+      },
+      {
+        "title": "Kleven, Landais, Søgaard (2019), Children and Gender Inequality: Evidence from Denmark, AEJ: Applied 11(4)",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/app.20180010"
+      },
+      {
+        "title": "NBER, Claudia Goldin Won 2023 Nobel Prize for Research on Gender Disparities in Labor Markets",
+        "url": "https://www.nber.org/news/claudia-goldin-awarded-2023-nobel-prize"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "debito-90-crescita",
+    "claim": "Sopra il 90% di debito/PIL la crescita crolla",
+    "side": "pro-mercato",
+    "topic": "Debito pubblico",
+    "type": "empirico",
+    "verdict": "Falso come regola netta: la soglia del 90% non regge alla verifica dei dati.",
+    "evidence": "consenso",
+    "summary": "Reinhart e Rogoff (American Economic Review, Papers and Proceedings, 2010) riportarono che con debito pubblico oltre il 90% del PIL la crescita media era negativa (-0,1%). Herndon, Ash e Pollin (Cambridge Journal of Economics 2014; working paper 2013) rifecero i calcoli e trovarono errori di codifica, esclusione selettiva di dati e pesi inadeguati: la crescita media sopra il 90% risulta 2,2%, e la relazione varia molto fra periodi e paesi. Égert (CESifo 2013), con test statistici sugli stessi dati, conclude che la non linearità fra debito e crescita non è robusta e che la soglia del 90% non è supportata, pur segnalando possibili effetti negativi a livelli più bassi di debito, con stime molto incerte. Resta aperto se un debito alto freni la crescita (la correlazione non dice la causa: può essere la bassa crescita a far salire il debito), ma una soglia netta al 90% non è un fatto acquisito. Le cifre -0,1% e 2,2% sono quelle dell'abstract del working paper di Herndon e coautori; l'abstract della versione a pagamento non è stato letto.",
+    "sources": [
+      {
+        "title": "Reinhart e Rogoff (2010), Growth in a Time of Debt, AER 100(2)",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.100.2.573"
+      },
+      {
+        "title": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff, Cambridge Journal of Economics 38(2)",
+        "url": "https://academic.oup.com/cje/article/38/2/257/1714018"
+      },
+      {
+        "title": "Égert (2013), The 90% Public Debt Threshold: The Rise and Fall of a Stylised Fact, CESifo WP 4242",
+        "url": "https://www.ifo.de/en/cesifo/publications/2013/working-paper/90-public-debt-threshold-rise-and-fall-stylised-fact"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "carbon-pricing-non-riduce-emissioni",
+    "claim": "Il carbon pricing non riduce le emissioni",
+    "side": "popolare",
+    "topic": "Clima",
+    "type": "empirico",
+    "verdict": "Falso in media: le valutazioni ex post trovano riduzioni, spesso modeste e con prezzi bassi.",
+    "evidence": "consenso",
+    "summary": "Döbbeling-Hildebrandt e coautori (Nature Communications 2024) hanno fatto una revisione sistematica con meta-analisi: 16.748 studi esaminati, 80 valutazioni ex post pertinenti, 483 stime di effetto su 21 schemi di prezzo del carbonio. Trovano riduzioni delle emissioni immediate e sostanziali in almeno 17 schemi, anche con prezzi bassi nella maggior parte dei casi; le riduzioni statisticamente significative vanno da circa il 5% al 21%, ovvero circa il 4%-15% dopo la correzione per bias di pubblicazione. Per l'EU ETS la Commissione europea indica emissioni dei settori coperti circa il 50% sotto i livelli del 2005 (dati 2024), con il settore elettrico come principale motore; attribuire il calo al solo prezzo del carbonio è però difficile (contano rinnovabili, prezzo del gas, crisi economiche, altre politiche). Limiti: molti schemi non sono valutati. Il sito di Nature blocca il caricamento automatico: le cifre della meta-analisi sono confermate dall'abstract e dal DOI come riportati dai risultati di ricerca, non lette sulla pagina.",
+    "sources": [
+      {
+        "title": "Döbbeling-Hildebrandt et al. (2024), Systematic review and meta-analysis of ex-post evaluations on the effectiveness of carbon pricing, Nature Communications 15, 4147",
+        "url": "https://doi.org/10.1038/s41467-024-48512-w"
+      },
+      {
+        "title": "Commissione europea, EU ETS: emissioni dei settori coperti circa -50% dal 2005 (4 aprile 2025)",
+        "url": "https://climate.ec.europa.eu/news-your-voice/news/eu-emissions-trading-system-has-reduced-emissions-sectors-covered-50-2005-2025-04-04_sl"
+      }
+    ],
+    "chart": ""
+  },
+  {
+    "id": "proprieta-furto",
+    "claim": "La proprietà è un furto",
+    "side": "critico del mercato",
+    "topic": "Proprietà",
+    "type": "normativo",
+    "verdict": "Nessun verdetto: è un giudizio di valore (formula di Proudhon, 1840), non verificabile con i dati.",
+    "evidence": "non empirico",
+    "summary": "L'affermazione dipende da una teoria di che cosa renda legittimo possedere qualcosa: con i dati non si può dire che sia vera o falsa. Si possono discutere fatti empirici collegati, per esempio come i diritti di proprietà si leghino a investimenti e crescita, tema su cui la letteratura è dibattuta; questa scheda non lo riassume per non citare fonti non verificate.",
+    "sources": [],
     "chart": ""
   }
 ]

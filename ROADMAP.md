@@ -9,7 +9,8 @@
 - [ ] Pubblicare su GitHub Pages (repo privato: serve decidere se renderlo pubblico)
 
 ## Contenuti
-- [ ] Altre ~25 affermazioni da `sources/raw-ai-dumps/` (economia, politica, finanza), bilanciando i due schieramenti
+- [x] Seconda tornata: 10 affermazioni (15 totali)
+- [ ] Altre ~15 affermazioni da `sources/raw-ai-dumps/` (economia, politica, finanza), bilanciando i due schieramenti
 - [ ] Per ogni affermazione normativa: elenco dei fatti empirici sottostanti
 - [ ] Aggiungere un dato primario (grafico proprio) dove OWID non basta (SPIVA, TIC, WID)
 - [ ] Fisica e matematica (fase successiva)
@@ -29,5 +30,6 @@
 - Limite: SPIVA e CBO bloccano il fetch automatico (403); per SPIVA le cifre precise non sono state ricontrollate sul PDF, quindi la scheda cita solo la conclusione qualitativa.
 
 ## Log
+- 2026-11-06: aggiunte 10 affermazioni (affitto, dividendi, rent control, dazi, disuguaglianza, immigrazione, divario di genere, debito 90%, carbon pricing, proprieta' come furto): 15 totali. Fonti non lette per intero: Nature (redirect), JSTOR/Nobel (403), Beracha-Johnson e Miller-Modigliani solo pagina bibliografica; nessun grafico OWID adatto trovato.
 - 2026-11-06: repo pubblico, sito online su GitHub Pages: https://alessiomartini.github.io/myths-vs-data/
 - 2026-11-06: progetto avviato: struttura, sito statico, 5 affermazioni verificate, feedback collegato a site-notes
